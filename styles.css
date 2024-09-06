@@ -39,7 +39,11 @@ main {
     padding: 20px;
     text-align: center;
 }
-
+.landing {
+    background-image: url(hero.jpg);
+    height: 100vh;
+    width: 100vw;
+}
 /* Intro section styles */
 .intro {
     background-color: #e6e6fa;
