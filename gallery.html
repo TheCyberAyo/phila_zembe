@@ -2,28 +2,73 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Add some basic styles for the list and images */
+        .hero-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .hero-list li {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .hero-list img {
+            width: 100px;
+            height: auto;
+            margin-right: 15px;
+            border-radius: 8px;
+        }
+        .hero-info {
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body>
     <!-- Main header -->
-    <header>
-        <h1>Doodle Dan</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Main content -->
-    <main>
-        <section class="gallery">
-            <h2>Gallery</h2>
-            <img src="img/doodle-dan-gallery.jpg" alt="Doodle Dan Gallery" class="gallery-img">
-            <p>Here you can explore some of my favorite doodles and artwork. I hope you enjoy them as much as I enjoyed creating them!</p>
-        </section>
-    </main>
+    <div>
+        <h1>Superhero Gallery</h1>
+        <ul class="hero-list">
+            <li>
+                <img src="https://example.com/captain-america.jpg" alt="Captain America">
+                <div class="hero-info">
+                    <h2>Captain America</h2>
+                    <p>Steve Rogers, also known as Captain America, is a super-soldier who fought in World War II. He is known for his courage, leadership, and the iconic shield he wields.</p>
+                </div>
+            </li>
+            <li>
+                <img src="https://example.com/antman.jpg" alt="Ant-Man">
+                <div class="hero-info">
+                    <h2>Ant-Man</h2>
+                    <p>Scott Lang, the current Ant-Man, has the ability to shrink in size while increasing in strength. He uses his powers to fight crime and protect the world.</p>
+                </div>
+            </li>
+            <li>
+                <img src="https://example.com/spiderman.jpg" alt="Spider-Man">
+                <div class="hero-info">
+                    <h2>Spider-Man</h2>
+                    <p>Peter Parker, a teenager with spider-like abilities, uses his powers to protect New York City from various threats. He is known for his agility, wall-crawling, and spider-sense.</p>
+                </div>
+            </li>
+            <li>
+                <img src="https://example.com/hulk.jpg" alt="Hulk">
+                <div class="hero-info">
+                    <h2>Hulk</h2>
+                    <p>Dr. Bruce Banner transforms into the Hulk when he experiences intense anger or stress. The Hulk is known for his incredible strength and durability.</p>
+                </div>
+            </li>
+            <li>
+                <img src="https://example.com/black-widow.jpg" alt="Black Widow">
+                <div class="hero-info">
+                    <h2>Black Widow</h2>
+                    <p>Natasha Romanoff, or Black Widow, is a highly trained spy and former assassin. She is skilled in hand-to-hand combat and espionage, and is a key member of the Avengers.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
 
     <!-- Footer -->
     <footer>
@@ -31,3 +76,4 @@
     </footer>
 </body>
 </html>
+
