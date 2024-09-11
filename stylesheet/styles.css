@@ -1,0 +1,159 @@
+/* Base styles for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+/* Header styles */
+header {
+    background-color: #4682b4;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+
+/* Landing section */
+.landing {
+    background-image: url(/pics/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: maroon;
+    display: flex;
+    text-align: center;
+}
+
+/* Intro section styles */
+.intro {
+    background-color: #e6e6fa;
+    padding: 20px;
+    border: 5px solid maroon;
+}
+
+.intro h2 {
+    color: #333;
+}
+
+.intro p {
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #87ceeb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #4682b4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Friends of Ironman */
+.hero-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.hero-info {
+    max-width: 600px;
+}
+
+/* Missions Page */
+.missions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mission-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.mission-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #000;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    
+    .nav-list li {
+        margin: 5px 0;
+    }
+}
+
